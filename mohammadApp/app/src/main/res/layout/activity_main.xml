@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:fontFamily="casual"
+        android:text="calculator"
+        android:textColor="#633EBD"
+        android:textSize="50dp"
+        android:background="#8AFFFFFF"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="265dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#72FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#2F0A87"
+        android:hint="First number"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="267dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:background="#72FFFFFF"
+        android:textColor="#2F0A87"
+        android:hint="Second number"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#9F0288D1"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:fontFamily="casual"
+        android:text="Total"
+        android:textColor="#633EBD"
+        android:background="#72FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+</LinearLayout>
